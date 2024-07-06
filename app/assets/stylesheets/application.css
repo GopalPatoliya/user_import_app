@@ -1,0 +1,156 @@
+/* app/assets/stylesheets/application.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .form-group {
+    margin: 0 10px;
+  }
+  
+  input, select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  input[type="file"] {
+    border: none;
+  }
+  
+  button, input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover, input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .notice, .alert {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+  }
+  
+  .notice {
+    border-color: #4CAF50;
+    color: #4CAF50;
+  }
+  
+  .alert {
+    border-color: #f44336;
+    color: #f44336;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination a, .pagination span {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination .current {
+    background-color: #333;
+    color: white;
+  }
+  
+  .user-details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .user-details p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .actions .btn {
+    margin: 0 10px;
+  }
+  .link-button {
+    background: none;
+    border: none;
+    color: blue; /* or any other color you prefer */
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font: inherit; /* Inherit font properties to match surrounding text */
+  }
+  
+  .link-button:hover {
+    text-decoration: underline;
+  }
